@@ -26,26 +26,16 @@ body{
     width: 300px;
 }
 
-.header-container{
-    background-color: var(--background);
+.form{
+    display: flex;
+    flex-direction: column;
 }
+
 .logo{
     width: 150px;    
     margin-bottom: 32px;
     justify-self: center;
     display: none;
-}
-
-.logo-header{
-    width: 100px;    
-    margin-bottom: 32px;
-    justify-self: center;
-    margin: 0;
-    padding: 0;
-}
-.form{
-    display: flex;
-    flex-direction: column;
 }
 
 .form a{
